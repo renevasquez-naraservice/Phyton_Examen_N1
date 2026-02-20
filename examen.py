@@ -35,7 +35,7 @@ def agregar_producto():
     print("----------------------------------------")
 def mostrar_productos(lista):
     i=0
-    for producto in productos:
+    for producto in lista:
         i+=1
         print("-------------------------------------")
         print(f"Producto N° {i} <==========")
