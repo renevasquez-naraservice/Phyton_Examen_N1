@@ -63,8 +63,8 @@ def iniciar_():
         elif accion == 2:
             mostrar_productos(productos)
         elif accion == 3:
-            break
             print("==> La Sesión ha terminado :)")
+            break
         else:
             error()
 #-----------------------------------------------
